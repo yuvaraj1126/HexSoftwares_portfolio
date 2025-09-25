@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import profile from "../assets/profile.jpg";
 
 function Hero() {
   return (
@@ -7,6 +8,17 @@ function Hero() {
       id="home"
       className="min-h-screen flex flex-col justify-center items-center text-center bg-gradient-to-b from-gray-900 to-gray-800 px-6"
     >
+      {/* Small Profile Picture with Zoom on Hover */}
+      <motion.img
+        src={profile}
+        alt="Profile"
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        whileHover={{ scale: 1.15 }}   // ✅ zoom effect
+        transition={{ duration: 0.5 }}
+        className="w-24 h-24 md:w-28 md:h-28 rounded-full border-4 border-teal-400 shadow-lg mb-6 object-cover object-center cursor-pointer"
+      />
+
       {/* Main Heading */}
       <motion.h1
         initial={{ opacity: 0, y: -50 }}

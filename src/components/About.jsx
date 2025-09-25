@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { FaReact, FaNodeJs } from "react-icons/fa";
 import { SiMongodb, SiTailwindcss } from "react-icons/si";
+import profile from "../assets/profile.jpg"; // ✅ your profile image
 
 function About() {
   return (
@@ -16,6 +17,15 @@ function About() {
         viewport={{ once: true }}
         className="max-w-3xl text-center"
       >
+        {/* Profile Picture */}
+        <div className="flex justify-center mb-6">
+          <img
+            src={profile}
+            alt="Profile"
+            className="w-40 h-40 rounded-full border-4 border-teal-400 shadow-lg object-cover object-center"
+          />
+        </div>
+
         {/* Title */}
         <h2 className="text-4xl font-bold text-teal-400">About Me</h2>
 

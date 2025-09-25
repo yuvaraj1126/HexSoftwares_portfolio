@@ -4,6 +4,9 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Resume from './components/Resume';
+import Skills from './components/Skills';
+import Certifications from './components/Certifications';
 
 function App() {
   return (
@@ -11,6 +14,9 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Resume/>
+      <Certifications/>
+      <Skills/>
       <Projects />
       <Contact />
       <Footer />

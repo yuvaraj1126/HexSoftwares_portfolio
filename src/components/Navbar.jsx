@@ -21,6 +21,8 @@ function Navbar() {
           <li>
             <a href="#about" className="hover:text-teal-400 transition">About</a>
           </li>
+           <li><a href="#resume" className="hover:text-teal-400">Resume</a></li>
+          <li><a href="#skills" className="hover:text-teal-400">Skills</a></li>
           <li>
             <a href="#projects" className="hover:text-teal-400 transition">Projects</a>
           </li>
