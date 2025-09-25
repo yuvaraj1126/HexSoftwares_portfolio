@@ -21,7 +21,7 @@ If you are developing a production application, we recommend using TypeScript wi
 ## About
 Hi! I’m **Yuvaraj**, a **Full Stack Developer** specializing in **MERN stack**. This portfolio showcases my projects, skills, and ways to get in touch.  
 
-**Live Demo:** [https://your-portfolio.netlify.app](https://your-portfolio.netlify.app)  
+**Live Demo:** https://yuvaraj-portfolio1.netlify.app
 
 ---
 
